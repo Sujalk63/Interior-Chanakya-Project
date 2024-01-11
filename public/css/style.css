@@ -498,13 +498,7 @@ form button{
     padding: 0px 2vw;
     background: rgb(0, 0, 0);
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
-    /* background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 0) 100%); */
-
-
-
-
-
+    font-size: 2vw;
 }
 
 .galleryPics:hover p {
@@ -568,7 +562,7 @@ form button{
 
 .footer {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     border-top: 1px solid white;
@@ -581,43 +575,48 @@ form button{
 .f1 {
     background-color: #F2F1EE;
     width: 100%;
-    height: 45%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1% 8%;
+    padding: 3vw 8vw;
 }
 
 .f2 {
     background-color: white;
     width: 100%;
-    height: 35%;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0% 6%;
+    /* padding: 0% 6%; */
+    padding: 3.5vw 8vw;
+
 }
 
 .f3 {
     background-color: #F2F1EE;
     width: 100%;
-    height: 10%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0% 4%;
+    padding: 1.3vw 5vw;
 }
 
 .f4 {
     background-color: rgb(20, 19, 19);
     width: 100%;
-    height: 20%;
+    /* height: auto; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 3%;
+    padding: 2vw 5vw;
+
 }
+
 
 .f1-l,
 .f1-r {
@@ -627,28 +626,31 @@ form button{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    gap: 1vw;
 }
 
 
 
 .f1-l p {
     color: gray;
+    font-size: 1.05vw;
 }
 
 .f1-l img {
-    width: 72%;
-    height: 22%;
+    width: 15vw;
+    height: auto;
 }
 
 .socialIcons {
     /* background-color: red; */
-    width: 60%;
-    height: 13%;
+    width: 12.8vw;
+    height: 2.2vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 0.5rem;
+    /* background-color: red; */
 }
 
 .socialIcons>a {
@@ -664,8 +666,7 @@ form button{
 }
 
 .socialIcons a i {
-    font-size: 1.2rem;
-    /* color: #141313; */
+    font-size: 1.1vw;
     color: white;
 }
 
@@ -673,40 +674,64 @@ form button{
     align-items: flex-end;
 }
 
+.f1-r h2{
+    font-size: 1.5vw;
+}
+
 .f1-r a {
     text-decoration: none;
     color: #141313;
     z-index: 999;
+    font-size: 1.05vw;
 }
 
 .f2-items {
     width: 20%;
-    height: 100%;
+    height: auto;
     /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5%;
-    justify-content: center;
-    padding: 3% 0%;
+    gap: 0.7vw;
+    /* justify-content: center; */
+
+    /* padding: 4vw 0%; */
 }
 
 
 .f2-items i {
-    font-size: 1.5rem;
+    font-size: 1.6vw;
     color: #141313;
 }
 
 .f2-items p {
     margin-top: 2%;
     color: #808080;
-    font-size: 0.8rem;
+    font-size: 0.8vw;
 }
 
 
 .find p {
     text-align: center;
 }
+
+.copyright, .designer >p{
+    font-size: 1.1vw;
+}
+
+.designer a{
+    font-size: 1.1vw;
+}
+
+.f4 h5{
+    font-size: 0.9vw;
+}
+
+.f4 img{
+    width: 15vw;
+    height: auto;
+}
+
 
 
 /* CSS for the fade-in animation */
@@ -720,6 +745,8 @@ form button{
     opacity: 1;
     transform: translateY(0);
 }
+
+
 
 
 
