@@ -711,6 +711,10 @@ form button{
 }
 
 
+.f2-items h5{
+    font-size: 0.8vw;
+}
+
 .find p {
     text-align: center;
 }
