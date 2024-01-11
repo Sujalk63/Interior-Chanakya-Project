@@ -314,7 +314,7 @@ form button{
 
 .thirdpage {
     width: 100%;
-    height: 150vh;
+    height: auto;
     background-color: #F2F1EE;
     position: relative;
     display: flex;
@@ -324,7 +324,7 @@ form button{
     z-index: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 
 }
 
@@ -336,7 +336,7 @@ form button{
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    position: absolute;
+    position: relative;
     z-index: 1;
     left: 10%;
 }
