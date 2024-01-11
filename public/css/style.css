@@ -325,6 +325,7 @@ form button{
     display: flex;
     align-items: center;
     /* justify-content: center; */
+    padding: 10.5vw 0vw;
 
 }
 
