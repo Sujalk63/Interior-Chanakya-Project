@@ -785,7 +785,7 @@ form button {
         align-items: center;
     }
 
-    .line {
+    .line, .mobremove {
         display: none;
     }
 
@@ -802,10 +802,6 @@ form button {
         padding: 2vw;
     }
 
-    .nav button {
-        display: none;
-    }
-
     .nav button a {
         display: none;
     }
@@ -813,8 +809,9 @@ form button {
     /* first page and form container */
 
     .firstpage {
-        padding: 15vw 2vw;
-        height: 87vh;
+        padding: 25vw 2vw;
+        /* height: 87vh; */
+        height: auto;
         background-image: url(/images/mobvl.jpg);
         background-size: cover;
     }
