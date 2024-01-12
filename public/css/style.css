@@ -94,7 +94,7 @@
 }
 
 .navButton {
-    padding:0.56vw 1vw;
+    padding: 0.56vw 1vw;
     border-radius: 15px;
     border-style: none;
     background: rgb(215, 184, 130);
@@ -119,7 +119,7 @@
     height: auto;
     border-radius: 7%;
     /* position: absolute; */
-    top: 20%; 
+    top: 20%;
     left: 17%;
     border: 0.1vw solid #D5B680;
     padding-left: 2%;
@@ -166,7 +166,7 @@ form {
     height: 66%;
 }
 
-form h2{
+form h2 {
     font-size: 1.57vw;
 }
 
@@ -181,7 +181,7 @@ form h2{
     /* background-color: red; */
 }
 
-.inputButton::placeholder{
+.inputButton::placeholder {
     font-size: 0.85vw;
 }
 
@@ -205,7 +205,7 @@ form h2{
     /* font-size: 0.9vw; */
 }
 
-form button{
+form button {
     font-size: 0.9vw;
 }
 
@@ -255,7 +255,7 @@ form button{
     margin-right: 5%; */
     /* margin: 2vw 3vw; */
     margin: 2% 3%;
-    padding:1vw 0;
+    padding: 1vw 0;
     /* margin-top: 5%; */
 }
 
@@ -274,11 +274,11 @@ form button{
     font-size: 1.05vw;
 }
 
-.card h2{
+.card h2 {
     font-size: 1.55vw;
 }
 
-.card p{
+.card p {
     font-size: 1.04vw;
 }
 
@@ -353,7 +353,7 @@ form button{
     height: auto;
     border-radius: 10%;
     background-color: #F2F1EE;
-    position: absolute; 
+    position: absolute;
     /* position absolute becuz to manage position of small box */
     z-index: 2;
     left: 50%;
@@ -680,7 +680,7 @@ form button{
     align-items: flex-end;
 }
 
-.f1-r h2{
+.f1-r h2 {
     font-size: 1.5vw;
 }
 
@@ -717,7 +717,7 @@ form button{
 }
 
 
-.f2-items h5{
+.f2-items h5 {
     font-size: 0.8vw;
 }
 
@@ -725,19 +725,20 @@ form button{
     text-align: center;
 }
 
-.copyright, .designer >p{
+.copyright,
+.designer>p {
     font-size: 1.1vw;
 }
 
-.designer a{
+.designer a {
     font-size: 1.1vw;
 }
 
-.f4 h5{
+.f4 h5 {
     font-size: 0.9vw;
 }
 
-.f4 img{
+.f4 img {
     width: 15vw;
     height: auto;
 }
@@ -757,332 +758,143 @@ form button{
 }
 
 
+/* media queries section */
 
 
-
-
-
-
-/* Media queries for mobile phones */
 @media only screen and (max-width: 767px) {
-    /* Adjustments for small screens */
+
+    /* nav bar */
 
     .nav {
         height: auto;
         flex-direction: column;
         align-items: stretch;
-    }
-
-    .navButton {
-        display: none;
+        padding: 2vw;
     }
 
     .logo {
-        width: 50%;
-        /* Adjust as needed */
-        margin-bottom: 10px;
+        width: 50vw;
+        margin-bottom: 2vw;
     }
 
-    .left {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
+    .left,
     .right {
         width: 100%;
-        text-align: center;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .line {
         display: none;
-        /* Hide the line in small screens */
     }
 
     .right a {
-        font-size: 12px;
-        /* Adjust font size */
+        font-size: 3.5vw;
+        margin-bottom: 2vw;
     }
 
     .r1 {
-        width: 80%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2vw;
+    }
+
+    .nav button {
+        display: none;
+    }
+
+    .nav button a {
+        display: none;
+    }
+
+    /* first page and form container */
+
+    .firstpage {
+        padding: 15vw 2vw;
+        height: 87vh;
+        background-image: url(/images/mobvl.jpg);
+        background-size: cover;
     }
 
     .formContainer {
-        width: 80%;
-        /* Adjust as needed */
-        margin-left: 10%;
-        /* Adjust as needed */
-        margin-top: 30%;
-        border-radius: 25px;
-        align-items: center;
-        justify-content: center;
+        width: 80vw;
+        height: auto;
+        border-radius: 6vw;
+        margin: auto;
+        padding-top: 4vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-bottom: 8vw;
     }
 
     .upp-1 {
-        margin: 0 1%;
+        font-size: 3.4vw;
+        letter-spacing: 0.1em;
+        color: rgb(81, 75, 75);
+        margin-bottom: 2%;
     }
 
-    .secondInnerTop {
-        flex-direction: column;
-        margin: 5% 3%;
-        /* Adjust as needed */
+
+    .upp-2 {
+        font-size: 7.7vw;
+        /* Adjust font size for smaller screens */
     }
 
-    .l {
+    .upp-3 {
+        font-size: 3.5vw;
+        /* Adjust font size for smaller screens */
+        letter-spacing: 0.05vw;
+    }
+
+    .up-2 {
+        font-size: 6vw;
+        /* Adjust font size for smaller screens */
+    }
+
+    form {
         width: 100%;
-        margin-top: 3%;
-        padding: 0 5%;
-        text-align: center;
-    }
-
-    .r {
-        width: 100%;
-        text-align: center;
-    }
-
-    .circle {
-        display: none;
-    }
-
-    .scrollimages {
-        height: auto;
-        padding-top: 5%;
-    }
-
-    .image-set {
-        flex-direction: column;
-    }
-
-    .image-set span {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .image-set span img {
-        height: 100%;
-        /* Adjust as needed */
-    }
-
-    .image-set span h1 {
-        margin-bottom: 5px;
-    }
-
-    .card p{
-        text-align: center;
-    }
-/* 
-    .big-box {
-        display: none;
-        width: 100%;
-        height: 40vh;
-        left: 0;
-        background-size: contain;
-        background-position: center top;
-        background-repeat: no-repeat;
-    }
-
-    .small-box {
-        width: 100%;
-        top: 70%;
-        left: 0;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-
-    .small-box a {
-        display: none;
-    }
-
-    .small-box p{
-        padding: 0px 0px;
-        background-color: red;
-    }
-
-    .small-box h2{
-        padding-top: 0px;
-        margin-bottom: 0px;
-    } */
-}
-
-/* Mobile View */
-@media only screen and (max-width: 600px) {
-    .thirdpage {
-        height: 50vh;
-        padding: 5% 5%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .big-box {
-        display: none;
-        width: 100%;
-        height: 40vh;
-        left: 0;
-        background-size: contain;
-        background-position: center top;
-        background-repeat: no-repeat;
+        gap: 3.5vw;
+        /* Increase the gap between input fields */
+        height: 66%;
     }
 
 
-    .small-box {
-        width: 100%;
-        top: 30%;
-        left: 0;
+    form h2 {
+        font-size: 5vw;
+        /* Adjust font size for smaller screens */
     }
 
-    .small-box a {
-        display: none;
+    .inputButton {
+        height: 9vw;
+        /* Adjust height for smaller screens */
+        font-size: 4vw;
+        /* Adjust font size for smaller screens */
+        border-radius: 3.2vw;
     }
 
-    .small-box h2 {
-        font-size: 2.5rem;
-        margin-bottom: 15px;
+    .inputButton::placeholder {
+        font-size: 3vw;
+        /* Adjust font size for smaller screens */
     }
 
-    .small-box p {
-        font-size: 14px;
+    .browse {
+        font-size: 4vw;
+        /* Adjust font size for smaller screens */
     }
 
-    .GetInTouch,
-    .secondHalf a {
-        width: 100%;
-        margin-top: 5%;
+    form button {
+        font-size: 4vw;
+        /* Adjust font size for smaller screens */
     }
 
-    .big-box img {
-        display: none;
+    form .mobv {
+        font-size: 3vw;
+        /* Adjusted size */
+        text-align: center;
     }
-
-    .blackBanner {
-        height: 50vh;
-        width: 100%;
-        /* //to be removed */
-
-        margin-top: 100px;
-    }
-
-    .blackBanner .secondHalf {
-        width: 40%;
-
-    }
-
-    .blackBanner h1 {
-        width: 50%;
-    }
-
-    .GetInTouch {
-        width: 50%;
-    }
-
-    .secondHalf {
-        width: 80%;
-        flex-direction: column;
-    }
-
-
-    .footer {
-        height: auto;
-    }
-
-    .f1,
-    .f2,
-    .f3,
-    .f4 {
-        flex-direction: column;
-    }
-
-    .f1 {
-        width: 100%;
-        height: auto;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .f1,
-    .f3 {
-        height: auto;
-    }
-
-    .f1-l,
-    .f1-r {
-        width: 100%;
-    }
-
-    .f1-l {
-        gap: 10px;
-    }
-
-    .f1-r {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 5%;
-    }
-
-    .f1-l img {
-        width: 50%;
-        padding-top: 10%;
-    }
-
-    .socialIcons {
-        height: 35px;
-        width: 250px;
-        justify-content: space-between;
-        padding-left: 0%;
-    }
-
-    .socialIcons>a {
-        width: 15%;
-    }
-
-    .f2-items {
-        width: 100%;
-    }
-}
-
-
-@media only screen and (max-width: 600px) {
-    .forthpage {
-        height: auto;
-    }
-
-    .gallery {
-        display: flex;
-        flex-direction: column;
-        height: 200vh;
-    }
-
-    .galleryPics {
-        width: 100%;
-        height: 100%;
-    }
-
-    /* footer */
-
-    .footer {
-        position: static;
-    }
-
-    .f4 {
-        height: 75px;
-        justify-content: space-evenly;
-    }
-
-    .f1{
-        padding: 0px 5px; 
-        /* added */
-    }
-
-    /* on mobile view only 6 pics of gallery will be shown */
-
-    .g3, .g4{
-        display: none;
-    }
-
-
 }
