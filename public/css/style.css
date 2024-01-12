@@ -806,10 +806,12 @@ form button {
         display: none;
     }
 
+    
+
     /* first page and form container */
 
     .firstpage {
-        padding: 25vw 2vw;
+        padding: 10vw 2vw;
         /* height: 87vh; */
         height: auto;
         background-image: url(/images/mobvl.jpg);
@@ -825,6 +827,7 @@ form button {
         padding-left: 2vw;
         padding-right: 2vw;
         padding-bottom: 8vw;
+        margin-bottom: 25.5vw;
     }
 
     .upp-1 {
