@@ -99,7 +99,9 @@
     border-style: none;
     background: rgb(215, 184, 130);
     background: linear-gradient(90deg, rgba(215, 184, 130, 1) 0%, rgba(185, 151, 92, 1) 100%);
-    display: flex; align-items: center; justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navButton a {
@@ -786,7 +788,7 @@ form button {
         align-items: center;
     }
 
-    .line{
+    .line {
         display: none;
     }
 
@@ -807,7 +809,7 @@ form button {
         display: none;
     }
 
-    .nav .right button{
+    .nav .right button {
         display: none;
     }
 
@@ -923,43 +925,41 @@ form button {
         width: 100%;
         height: auto;
         background-color: #F2F1EE;
-        position: relative;
+        /* position: relative; */
         display: flex;
         align-items: center;
-        padding: 10.5vw 2vw;
+        padding: 2vw 2vw;
         /* Adjusted top and bottom padding */
         z-index: 1;
     }
 
+    .big-box {
+        display: none;
+    }
+
     .small-box {
-        width: 80%;
-        /* Adjusted width for better responsiveness */
+        width: 100%;
         height: auto;
-        border-radius: 10%;
         background-color: #F2F1EE;
-        position: absolute;
-        z-index: 2;
-        left: 50%;
+        position: relative;
         transform: translateX(-50%);
         /* Centering the small-box horizontally */
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 1.5vw;
-        /* Adjusted the gap between elements */
-        padding: 5vw 4vw;
-        /* Adjusted top and bottom padding */
+        gap: 1vw;
     }
 
     .small-box h2 {
-        font-size: 5vw;
+        font-size: 7vw;
         /* Adjusted font size for mobile view */
         font-weight: 600;
+        margin-bottom: 3vw;
     }
 
     .small-box p {
         color: gray;
-        font-size: 1.5vw;
+        font-size: 3vw;
         /* Adjusted font size for mobile view */
     }
 
@@ -967,6 +967,31 @@ form button {
         display: none;
     }
 
+    /* black banner */
 
+    .blackBanner {
+        padding: 15vw 4vw;
+    }
+
+    .blackBanner h1 {
+        width: 80%;
+        font-size: 6vw;
+        text-align: start;
+    }
+
+    .secondHalf {
+        width: 60%;
+        justify-content: center;
+        margin-top: 2vw;
+        flex-direction: column;
+        gap: 6vw;
+
+    }
+
+    .secondHalf a {
+        width: 80%;
+        font-size: 3vw;
+
+    }
 
 }
