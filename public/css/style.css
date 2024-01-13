@@ -99,6 +99,7 @@
     border-style: none;
     background: rgb(215, 184, 130);
     background: linear-gradient(90deg, rgba(215, 184, 130, 1) 0%, rgba(185, 151, 92, 1) 100%);
+    display: flex; align-items: center; justify-content: center;
 }
 
 .navButton a {
@@ -785,8 +786,7 @@ form button {
         align-items: center;
     }
 
-    .line,
-    .mobremove {
+    .line{
         display: none;
     }
 
@@ -803,7 +803,11 @@ form button {
         padding: 2vw;
     }
 
-    .nav button a {
+    .nav .right button a {
+        display: none;
+    }
+
+    .nav .right button{
         display: none;
     }
 
@@ -830,6 +834,16 @@ form button {
         padding-bottom: 8vw;
         margin-bottom: 25.5vw;
     }
+
+    /* .formContainer {
+        opacity: 0;
+        transition: opacity 0.8s ease-in-out;
+    }
+
+    .formContainer.fade-in {
+        opacity: 1;
+    } */
+
 
     .upp-1 {
         font-size: 3.4vw;
@@ -902,5 +916,57 @@ form button {
     /* second page */
 
     /* in scroll.css */
+
+    /* third page */
+
+    .thirdpage {
+        width: 100%;
+        height: auto;
+        background-color: #F2F1EE;
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 10.5vw 2vw;
+        /* Adjusted top and bottom padding */
+        z-index: 1;
+    }
+
+    .small-box {
+        width: 80%;
+        /* Adjusted width for better responsiveness */
+        height: auto;
+        border-radius: 10%;
+        background-color: #F2F1EE;
+        position: absolute;
+        z-index: 2;
+        left: 50%;
+        transform: translateX(-50%);
+        /* Centering the small-box horizontally */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5vw;
+        /* Adjusted the gap between elements */
+        padding: 5vw 4vw;
+        /* Adjusted top and bottom padding */
+    }
+
+    .small-box h2 {
+        font-size: 5vw;
+        /* Adjusted font size for mobile view */
+        font-weight: 600;
+    }
+
+    .small-box p {
+        color: gray;
+        font-size: 1.5vw;
+        /* Adjusted font size for mobile view */
+    }
+
+    .small-box a {
+        display: none;
+    }
+
+
 
 }
