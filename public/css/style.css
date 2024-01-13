@@ -785,7 +785,8 @@ form button {
         align-items: center;
     }
 
-    .line, .mobremove {
+    .line,
+    .mobremove {
         display: none;
     }
 
@@ -806,7 +807,7 @@ form button {
         display: none;
     }
 
-    
+
 
     /* first page and form container */
 
@@ -897,4 +898,9 @@ form button {
         /* Adjusted size */
         text-align: center;
     }
+
+    /* second page */
+
+    /* in scroll.css */
+
 }
