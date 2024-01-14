@@ -994,4 +994,210 @@ form button {
 
     }
 
+    /* forth page */
+
+    .forthpage {
+        width: 100%;
+        height: auto;
+        background-color: #F2F1EE;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 15vw;
+        background-color: #000000;
+        /*for revealing footer*/
+        z-index: 1;
+    }
+
+    .gallery {
+        width: 90%;
+        min-height: 150vh;
+        /* Adjusted height for mobile view */
+        display: flex;
+        flex-direction: column;
+        /* Changed to column for mobile view */
+    }
+
+    .galleryPics {
+        height: 100%;
+        width: 100%;
+        /* Adjusted width for mobile view */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #222;
+        background-blend-mode: hard-light;
+        color: white;
+        font-size: 3vw;
+        /* Adjusted font size for mobile view */
+        transition: all 0.8s ease-in-out;
+        position: relative;
+        overflow: hidden;
+        margin: 5vw 5vw;
+    }
+
+
+    .galleryPics:hover {
+        background-color: #999;
+        background-blend-mode: normal;
+        background-position: top;
+    }
+
+    /* animation of text on pics */
+    .galleryPics p {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        opacity: 0;
+        transform: translateY(100%);
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        padding: 0px 2vw;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+        font-size: 7vw;
+        /* Adjusted font size for mobile view */
+    }
+
+    .galleryPics:hover p {
+        opacity: 1;
+        display: flex;
+        transform: translateY(0);
+    }
+
+
+    /* footer */
+
+    .footer {
+        padding: 2vw 0;
+        height: auto;
+        /* Adjusted padding for better spacing in mobile view */
+    }
+
+    .f1,
+    .f2,
+    .f3,
+    .f4 {
+        flex-direction: column;
+        align-items: center;
+        padding: 4vw 2vw;
+        height: auto;
+    }
+
+    .f1-l {
+        width: 100%;
+        align-items: start;
+        /* text-align: center; */
+        justify-content: flex-start;
+        margin-bottom: 2vw;
+    }
+
+    .f1-l p {
+        font-size: 4vw;
+        margin-bottom: 2vw;
+    }
+
+    .f1-l img {
+        width: 60vw;
+        height: auto;
+        margin-bottom: 2vw;
+    }
+
+    /* .socialIcons {
+
+        width: 50%;
+        height: 3vw;
+        margin-top: 1vw;
+    } */
+
+    .socialIcons {
+        width: 60%;
+        /* Adjusted width for better spacing */
+        height: auto;
+        margin-top: 1vw;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4vw;
+    }
+
+    .socialIcons>a {
+        width: 16%;
+        padding: 2.5vw 3vw;
+    }
+
+    .socialIcons a i {
+        font-size: 4vw;
+    }
+
+
+    .f1-r {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .f1-r h2,
+    .f1-r a {
+        font-size: 3vw;
+    }
+
+    .f2 {
+        flex-direction: column;
+        padding: 4vw 2vw;
+    }
+
+    .f2-items {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .f2-items h5{
+        font-size: 3vw;
+    }
+
+    .f2-items i {
+        font-size: 5vw;
+    }
+
+    .f2-items p{
+        font-size: 3vw;
+        margin-bottom: 8vw;
+    }
+
+    .f2-items:last-child p {
+        margin-bottom: 0;
+    }
+
+
+    .f3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5vw 2vw;
+        gap: 3vw;
+        margin: 3vw 0;
+    }
+
+    .copyright,
+    .designer>p,
+    .designer a {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .f4 {
+        padding: 2vw 2vw;
+        gap: 3vw;
+    }
+
+    .f4 h5 {
+        font-size: 2vw;
+    }
+
+    .f4 img {
+        width: 40%;
+    }
+
+
 }
