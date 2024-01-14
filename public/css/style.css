@@ -1069,6 +1069,7 @@ form button {
     .footer {
         padding: 2vw 0;
         height: auto;
+        position: static;
         /* Adjusted padding for better spacing in mobile view */
     }
 
