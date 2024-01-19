@@ -27,7 +27,7 @@
     background-color: #F2F1EE;
     /*for revealing footer*/
     z-index: 1;
-    background-image: url(/images/landing_page.jpg);
+    background-image: url(../images/landing_page.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@
     /* padding: 0.5vw 0vw; */
     padding-top: 5vw;
     padding-bottom: 5vw;
-
+    transform: scaleX(1) !important;
 }
 
 .nav {
